@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+/* файл используемых стилей */
+
+/* Стили раздела body */
+body {
+    background-color: #fff;
+    color: #212529;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Стиль объекта label */
+label {
+    width: 200px;
+    display: inline-table;
+}
+
+/* Стиль объекта input */
+input {
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* Стиль класса footnote */
+.footnote {
+    font-size: 12px;
+}
+
+/* Стиль класса alarmFootnote */
+.alarmFootnote {
+    font-size: 12px;
+    color: red;
+    margin-left: 200px;
+}
+
+/* Стиль класса blockCenter */
+.blockCenter {
+    text-align: center;
+}
+
+/* Стиль класса button */
+.button {
+    background: #fff;
+    align-content: center;
+    border-radius: 0.25rem;
+    border: 1.5px solid #17a2b8;
+    cursor: pointer;
+    padding: 0.3em 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* Задание стиля таблиц */
+table {
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    border-spacing: 0;
+}
+
+/* Задание стиля строк таблиц */
+table td {
+    padding-bottom: 0.4em;
+    border-top: 1.5px solid #212529;
+}
+
+/* Задание стиля заголовков таблиц */
+table th {
+    padding-bottom: 0.4em;
+}
+
+/* Задание стиля для ссылок */
+a {
+    text-decoration: none;
+}
